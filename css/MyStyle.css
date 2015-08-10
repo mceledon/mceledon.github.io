@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #dd2c4d;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+/*navigation*/
+section {
+    padding: 50px 0px;
+}
+
+.navbar-default {
+    background-color: #dd2c4d;
+    border: none;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: white;   
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover {
+    color: #eaec52;   
+}
+
+/*section1*/
+#Section1 {
+    background-image: url(../img/HeartBackground.png);
+    height: 550px;
+}
+
+#Section1 .col-sm-12 {
+    margin-top: 100px;
+}
+
+#Section1 h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#Section1 p {
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+
+#Section1 a, #Footer a {
+    /*margin-bottom: 50px;*/
+    border: 2px solid #dd2c4d;
+    padding: 15px;
+    color: #dd2c4d;
+    width: 300px;
+}
+
+/*Section2*/
+
+
+#Section2 h2 {
+    
+    /*border-bottom: 1px solid #dd2c4d;*/
+    padding-bottom: 5px;
+}
+
+/*Section3*/
+#Section3 {
+    background-color: #eee;
+}
+
+#Section3 h5 {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+/*Section4*/
+.events-info {
+    background-color: #dd2c4d;
+    padding: 5px;
+}
+
+.events-info h4, .events-info p {
+    color: white;
+    padding-left: 5px;
+}
+
+.events-info h4 {
+    font-size: 18px;
+}
+
+#Footer {
+    background-image: url('http://www.placehold.it/1200x500');
+    padding: 100px 0;
+}
+
+
+    
